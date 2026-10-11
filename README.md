@@ -16,9 +16,10 @@ https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/pluginmaste
 ## 插件列表
 
 ### Hotbar Font
-国服技能栏快捷键（`sR`、`cQ`、小键盘 `º1` 等）改用国际服的 MiedingerMed 字体并转为大写。
+将国服技能栏上带修饰键、字母或小键盘键的快捷键改为游戏内置的其他字体（默认 MiedingerMed，与国际服一致），并可转为大写。
 
-- `/hbfont config` 打开设置；`/hbfont` 开 / 关
+- `/hbfont config` 打开设置窗口，可切换字体、开关大写转换
+- `/hbfont` 开 / 关（关闭后恢复原样）
 
 ## 免责声明
 本仓库插件均为第三方工具，与 Square Enix 及 Dalamud 官方无关，使用风险自负。
