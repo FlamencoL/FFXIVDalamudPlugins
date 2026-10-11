@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "Author": "Flamenco",
+    "Name": "Hotbar Font",
+    "InternalName": "HotbarFont",
+    "AssemblyVersion": "1.0.0.0",
+    "Description": "把国服技能栏上的快捷键文字改为国际服样式的 MiedingerMed 字体和大写。命令：/hbfont",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/FlamencoL/FFXIVDalamudPlugins",
+    "Tags": [
+      "UI",
+      "Hotbar"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadRequiredState": 0,
+    "LoadSync": false,
+    "CanUnloadAsync": false,
+    "LoadPriority": 0,
+    "Punchline": "国服技能栏快捷键改用国际服 Miedinger 字体",
+    "AcceptsFeedback": true,
+    "DownloadLinkInstall": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
+    "DownloadLinkUpdate": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
+    "DownloadLinkTesting": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
+    "LastUpdate": 1791729240
+  }
+]
