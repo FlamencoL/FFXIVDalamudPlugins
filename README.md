@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/pluginmaste
 ### Hotbar Font
 国服技能栏快捷键（`sR`、`cQ`、小键盘 `º1` 等）改用国际服的 MiedingerMed 字体并转为大写。
 
-- `/hkfont config` 打开设置；`/hkfont` 开 / 关
+- `/hbfont config` 打开设置；`/hbfont` 开 / 关
 
 ## 免责声明
 本仓库插件均为第三方工具，与 Square Enix 及 Dalamud 官方无关，使用风险自负。
