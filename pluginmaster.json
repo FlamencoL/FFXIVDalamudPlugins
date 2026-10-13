@@ -3,7 +3,7 @@
     "Author": "Flamenco",
     "Name": "Hotbar Font",
     "InternalName": "HotbarFont",
-    "AssemblyVersion": "1.0.1.2",
+    "AssemblyVersion": "1.0.1.3",
     "Description": "将国服技能栏快捷键改为游戏内置的其他字体（默认 MiedingerMed，与国际服一致），并可转为大写。",
     "ApplicableVersion": "any",
     "RepoUrl": "https://github.com/FlamencoL/FFXIVDalamudPlugins",
@@ -21,6 +21,6 @@
     "DownloadLinkInstall": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
     "DownloadLinkUpdate": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
     "DownloadLinkTesting": "https://raw.githubusercontent.com/FlamencoL/FFXIVDalamudPlugins/main/plugins/HotbarFont/latest.zip",
-    "LastUpdate": 1791803595
+    "LastUpdate": 1791887953
   }
 ]
