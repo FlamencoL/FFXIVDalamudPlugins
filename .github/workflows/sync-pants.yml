@@ -1,0 +1,48 @@
+name: Sync pants.json
+
+on:
+  # 上游 cron 为 03:00 CST，但实际提交多在 05:00–07:40 CST，另有白天的临时更新
+  # 时间均为 UTC：08:00 / 12:00 / 18:00 / 23:00 CST
+  schedule:
+    - cron: "0 0 * * *"
+    - cron: "0 4 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-pants
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch upstream and strip proxy prefix
+        run: |
+          set -euo pipefail
+          curl -fsSL --retry 3 https://raw.githubusercontent.com/MeowZWR/DalamudPlugin/main/pants.json -o upstream.json
+          jq empty upstream.json
+          sed -E 's#("DownloadLink[A-Za-z]*"[[:space:]]*:[[:space:]]*")https://meowrs\.com/#\1#g' upstream.json > pants.json
+          rm upstream.json
+          jq empty pants.json
+          if grep -qE '"DownloadLink[A-Za-z]*"[[:space:]]*:[[:space:]]*"https://meowrs\.com/' pants.json; then
+            echo "::error::proxy prefix still present" && exit 1
+          fi
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- pants.json && git ls-files --error-unmatch pants.json >/dev/null 2>&1; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pants.json
+          git commit -m "Sync pants.json from MeowZWR/DalamudPlugin"
+          git push

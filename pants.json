@@ -1,0 +1,82 @@
+[
+  {
+    "Author": "Jukka",
+    "Name": "NecroLens",
+    "Punchline": "真正的死灵术士一定对深层迷宫了如指掌...然而有的人却在使用科技！",
+    "Description": "深层迷宫助手。显示巡逻怪、仇恨、视线和一切其他东西的雷达视图。",
+    "InternalName": "NecroLens",
+    "AssemblyVersion": "1.0.8.12",
+    "TestingAssemblyVersion": "1.0.8.12",
+    "RepoUrl": "https://github.com/MeowZWR/NecroLens",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "potd",
+      "hoh",
+      "eo",
+      "esp",
+      "radar",
+      "sonar",
+      "deep",
+      "dungeon",
+      "Pants"
+    ],
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "ImageUrls": [],
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkInstall": "https://github.com/MeowZWR/NecroLens/releases/download/1.0.8.12-cn/NecroLens.zip",
+    "DownloadLinkUpdate": "https://github.com/MeowZWR/NecroLens/releases/download/1.0.8.12-cn/NecroLens.zip",
+    "DownloadLinkTesting": "https://github.com/MeowZWR/NecroLens/releases/download/1.0.8.12-cn/NecroLens.zip",
+    "IconUrl": "https://static.meowrs.com/Plugins/NecroLens/icon.png",
+    "DownloadCount": 28959
+  },
+  {
+    "Author": "Team Wrath",
+    "Name": "Wrath Combo",
+    "Punchline": "将连击与互斥技能整合至单个按键——功能远不止于此。",
+    "Description": "化繁为简，一击千变！借鉴PvP技能设计理念，我们将单一技能拓展为完整连招体系。可能是基础的1-2-3式连击，也可能是精密的职业循环系统。根据你的战斗需求，打造专属输出节奏。",
+    "InternalName": "WrathCombo",
+    "AssemblyVersion": "1.0.4.26",
+    "TestingAssemblyVersion": "1.0.4.26",
+    "RepoUrl": "https://github.com/MeowZWR/WrathCombo",
+    "ApplicableVersion": "any",
+    "Tags": [
+      "Pants"
+    ],
+    "DalamudApiLevel": 15,
+    "TestingDalamudApiLevel": 15,
+    "DownloadLinkInstall": "https://github.com/MeowZWR/WrathCombo/releases/download/1.0.4.26-cn/WrathCombo.zip",
+    "DownloadLinkUpdate": "https://github.com/MeowZWR/WrathCombo/releases/download/1.0.4.26-cn/WrathCombo.zip",
+    "DownloadLinkTesting": "https://github.com/MeowZWR/WrathCombo/releases/download/1.0.4.26-cn/WrathCombo.zip",
+    "IconUrl": "https://static.meowrs.com/Plugins/WrathCombo/icon-2bwhkn3zf1f.png",
+    "Changelog": "i10n",
+    "DownloadCount": 81506
+  },
+  {
+    "Author": "Usagi",
+    "Name": "IINACT",
+    "InternalName": "IINACT",
+    "AssemblyVersion": "2.10.3.11",
+    "TestingAssemblyVersion": "2.10.3.11",
+    "Description": "一个在类ACT环境中运行FFXIV_ACT_Plugin的插件，包含为现代.NET重写的Overlay Plugin",
+    "ApplicableVersion": "any",
+    "RepoUrl": "https://github.com/MeowZWR/IINACT",
+    "Tags": [
+      "parsing",
+      "plugin",
+      "ACT",
+      "Pants"
+    ],
+    "DalamudApiLevel": 15,
+    "LoadPriority": 0,
+    "IconUrl": "https://static.meowrs.com/Plugins/IINACT/icon.png",
+    "Punchline": "A parsing plugin.",
+    "IsHide": "False",
+    "IsTestingExclusive": "False",
+    "DownloadLinkInstall": "https://github.com/MeowZWR/IINACT/releases/download/v2.10.3.11/IINACT.zip",
+    "DownloadLinkTesting": "https://github.com/MeowZWR/IINACT/releases/download/v2.10.3.11/IINACT.zip",
+    "DownloadLinkUpdate": "https://github.com/MeowZWR/IINACT/releases/download/v2.10.3.11/IINACT.zip",
+    "DownloadCount": 10922
+  }
+]
